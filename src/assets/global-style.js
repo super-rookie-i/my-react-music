@@ -18,7 +18,7 @@ const extendClick = () => {
     `
   }
   
-  export default {
+ const gStyle = {
     'theme-color': '#d44439',
     'theme-color-shadow': 'rgba (212, 68, 57, .5)',
     'font-color-light': '#f1f1f1',
@@ -36,3 +36,4 @@ const extendClick = () => {
     extendClick,
     noWrap
   }
+  export default gStyle;
